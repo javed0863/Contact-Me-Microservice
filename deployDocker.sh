@@ -1,0 +1,1 @@
+docker build -f Dockerfile-prod -t javed0863/contactme . && docker run -p 5102:8080 --name contactme -d javed0863/contactme
